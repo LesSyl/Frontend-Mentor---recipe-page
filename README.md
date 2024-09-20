@@ -23,7 +23,7 @@ Desktop
 Mobile
 
 ![](dist/img/mobile%201.jpeg)
-![](dist/img/mobile%202.jpeg)
+![](dist/img/mobile2.jpeg)
 
 ### Links
 
@@ -43,6 +43,8 @@ Mobile
 - Js
 
 ### What I learned
+
+A pleasant simple design in which I have added a short navigation. In this project I learned how to create navigation in html, css and js.
 
 ## Author
 
