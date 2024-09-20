@@ -1,0 +1,41 @@
+@use 'colors' as *;
+
+.section__head-description,
+	.nutrition__description {
+		margin: 1.2em 0 1.6em 0;
+		font-size: 1rem;
+		color: $text-color;
+		line-height: 1.5em;
+	}
+	.preparation,
+	.ingredients__item,
+	.instructions__item {
+		padding: 0.8em 1.5em 0.5em;
+		font-size: 0.9rem;
+	}
+
+	.preparation__details,
+	.ingredients__item,
+	.instructions__item {
+		word-spacing: 0.1em;
+		&::marker {
+			font-weight: bold;
+			color: $text-preparation;
+		}
+	}
+	.ingredients,
+	.instructions {
+		&__items {
+			margin: 0 0 1.5em 1.2em;
+		}
+	}
+	.instructions,
+	.preparation {
+		span {
+			font-weight: 700;
+		}
+	}
+	.ingredients,
+	.instructions {
+		border-bottom: 1px solid $line-color;
+	}

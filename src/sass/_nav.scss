@@ -1,0 +1,92 @@
+@use 'colors' as *;
+
+.nav {
+	display: none;
+}
+
+@media (min-width: 992px) {
+	.button {
+		position: absolute;
+		top: 2.7em;
+		left: 0;
+
+		&__nav {
+			position: absolute;
+			left: 24px;
+			height: 37px;
+			width: 70px;
+			border: none;
+			color: $text-preparation;
+			background-color: $bg-nav;
+			font-weight: bold;
+			border-radius: 5px;
+			cursor: pointer;
+			.left {
+				display: none;
+			}
+			.right {
+				display: flex;
+			}
+			.right,
+			.left {
+				padding: 1em 2em;
+				transition: transform 0.5s;
+				&:hover {
+					transform: scale(1.5);
+				}
+			}
+		}
+	}
+	.nav {
+		position: absolute;
+		display: none;
+		flex-direction: column;
+		top: 5.5em;
+		left: -4em;
+		width: 150px;
+		&__item {
+			display: flex;
+			justify-content: left;
+			align-items: center;
+			margin-bottom: 0.5em;
+			padding: 0.5em;
+			color: $text-preparation;
+			background-color: $bg-nav;
+			border: none;
+			border-radius: 5px;
+			transform: translateX(-100px);
+			transition: transform 1s;
+			text-decoration: none;
+			transition: 1s;
+		}
+	}
+	.nav__item {
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			height: 1px;
+			width: 100%;
+			background-color: $text-preparation;
+			transform: scaleX(0);
+			transform-origin: right;
+			transition: transform .3s;
+		}
+		&:hover::after {
+			transform: scaleX(1);
+			transform-origin: left;
+		}
+	}
+
+	.nav.active {
+		display: flex;
+		transform: translateX(11.8em);
+	}
+	.left.active {
+		display: flex;
+	}
+	.right.active {
+		display: none;
+	}
+}
