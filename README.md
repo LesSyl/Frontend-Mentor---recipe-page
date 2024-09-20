@@ -17,17 +17,19 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 Desktop
 
-![](src/img/desktop.jpeg)
+![](dist/img/desktop%201.jpeg)
+![](dist/img/desktop%202.jpeg)
 
 Mobile
 
-![](src/img/mobile.jpeg)
+![](dist/img/mobile%201.jpeg)
+![](dist/img/mobile%202.jpeg)
 
 ### Links
 
-- Repository URL:[GitHub](https://github.com/LesSyl/recipe-page)
+- Repository URL:[GitHub]( https://github.com/LesSyl/recipe-page)
 - Solution URL: [Frontendmentor]()
-- Live Site URL: [Live](https://lessyl.github.io/recipe-page/)
+- Live Site URL: [Live]( https://lessyl.github.io/recipe-page/)
 ## My process
 
 ### Built with
