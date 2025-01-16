@@ -29,7 +29,7 @@ Mobile
 
 - Repository URL:[GitHub]( https://github.com/LesSyl/recipe-page)
 - Solution URL: [Frontendmentor]( https://www.frontendmentor.io/solutions/recipe-page-solution-8eQr6WZ3Ec)
-- Live Site URL: [Live]( https://lessyl.github.io/recipe-page/)
+- Live Site URL: [Live])(https://lessyl.github.io/Frontend-Mentor---recipe-page/)
 ## My process
 
 ### Built with
